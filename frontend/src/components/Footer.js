@@ -5,7 +5,7 @@ const Footer = () => {
     <footer id="footer" className="footer">
       <div className="container">
         <div className="copyright text-center">
-          <p>© <span>Copyright</span> <strong className="px-1 sitename">PhotoFolio</strong> <span>All Rights Reserved</span></p>
+          <p>© <span>Copyright</span> <strong className="px-1 sitename">Jaden Berry Portfolio</strong> <span>All Rights Reserved</span></p>
         </div>
         <div className="social-links d-flex justify-content-center">
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter-x"></i></a>

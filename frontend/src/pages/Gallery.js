@@ -15,10 +15,8 @@ const Gallery = () => {
   }, []);
 
   const galleryImages = [
-    'gallery-1.jpg', 'gallery-2.jpg', 'gallery-3.jpg', 'gallery-4.jpg',
-    'gallery-5.jpg', 'gallery-6.jpg', 'gallery-7.jpg', 'gallery-8-2.jpg',
-    'gallery-9.jpg', 'gallery-10.jpg', 'gallery-11.jpg', 'gallery-12.jpg',
-    'gallery-13.jpg', 'gallery-14.jpg'
+    'gallery-1.jpg', 'IMG_4841.JPEG', 'gallery-2.jpg', 'IMG_6979.JPEG',
+    'IMG_7822.jpg', 'IMG_7855.jpg', 'IMG_7861.jpg', 'IMG_9323.jpg', 'IMG_8257.JPG'
   ];
 
   return (

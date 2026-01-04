@@ -35,7 +35,7 @@ const Header = () => {
         
         <Link to="/" className="logo d-flex align-items-center me-auto me-xl-0">
           <i className="bi bi-camera"></i>
-          <h1 className="sitename">PhotoFolio</h1>
+          <h1 className="sitename">Jaden Berry</h1>
         </Link>
 
         <nav id="navmenu" className="navmenu">

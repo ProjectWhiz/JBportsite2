@@ -73,7 +73,7 @@ const Contact = () => {
                   <i className="bi bi-geo-alt flex-shrink-0"></i>
                   <div>
                     <h3>Location</h3>
-                    <p>A108 Adam Street, New York, NY 535022</p>
+                    <p>Virtual</p>
                   </div>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const Contact = () => {
                   <i className="bi bi-telephone flex-shrink-0"></i>
                   <div>
                     <h3>Call</h3>
-                    <p>+1 5589 55488 55</p>
+                    <p>+1 470-640-7094</p>
                   </div>
                 </div>
               </div>
@@ -92,8 +92,8 @@ const Contact = () => {
                 <div className="info-item d-flex align-items-center">
                   <i className="bi bi-envelope flex-shrink-0"></i>
                   <div>
-                    <h3>Email</h3>
-                    <p>info@example.com</p>
+                    <h3>Booking</h3>
+                    <p>Coming Soon</p>
                   </div>
                 </div>
               </div>
