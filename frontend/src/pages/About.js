@@ -36,7 +36,7 @@ const About = () => {
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row gy-4 justify-content-center">
             <div className="col-lg-4">
-              <img src="/assets/img/profile-img.jpg" className="img-fluid" alt="Profile" />
+              <img src="/assets/img/gallery/IMG_8257.jpg" className="img-fluid" alt="Profile" />
             </div>
             <div className="col-lg-5 content">
               <h2>Professional Photographer from New York</h2>
@@ -47,27 +47,25 @@ const About = () => {
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>21 September 2000</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>coming soon</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>470-640-7094</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>San Francisco, CA</span></li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul>
                     <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Experience:</strong> <span>10yrs</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                   </ul>
                 </div>
               </div>
               <p className="py-3">
-                Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci 
-                omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque 
-                neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni 
-                laudantium dolores.
+                I’m Jaden Berry, a photographer and cinematographer focused on capturing real moments with intention and emotion. My work blends clean composition, natural light, and thoughtful framing to create visuals that feel both cinematic and authentic.
+                Whether I’m shooting portraits, lifestyle content, or creative visuals, my goal is always the same: to tell a story that feels honest and timeless. I believe the best images don’t just look good — they make you feel something.
+                Based in New York and available for freelance work, I collaborate with individuals, brands, and creatives who value detail, perspective, and strong visual identity.
               </p>
             </div>
           </div>
@@ -89,7 +87,7 @@ const About = () => {
                   <div className="testimonial-item">
                     <img src={`/assets/img/testimonials/testimonials-${num}.jpg`} className="testimonial-img" alt="" />
                     <h3>Saul Goodman</h3>
-                    <h4>Ceo &amp; Founder</h4>
+                    <h4>Ceo &amp; Happy Client</h4>
                     <div className="stars">
                       <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
                       <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
@@ -98,9 +96,8 @@ const About = () => {
                     <p>
                       <i className="bi bi-quote quote-icon-left"></i>
                       <span>
-                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum 
-                        suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. 
-                        Maecen aliquam, risus at semper.
+                        Great attention to detail and a true professional. Jaden captured our wedding perfectly, 
+                        delivering stunning photos that we will cherish forever. Highly recommended!
                       </span>
                       <i className="bi bi-quote quote-icon-right"></i>
                     </p>

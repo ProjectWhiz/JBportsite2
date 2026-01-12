@@ -842,98 +842,42 @@ section,
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
-.gallery-masonry {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 350px);
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.gallery-item-large {
-  grid-column: 2 / 4;
-  grid-row: 1 / 3;
-}
-
-.gallery-item-top-left {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.gallery-item-bottom-left {
-  grid-column: 1;
-  grid-row: 2;
-}
-
-.gallery-item-top-right {
-  grid-column: 4;
-  grid-row: 1;
-}
-
-.gallery-item-bottom-right {
-  grid-column: 4;
-  grid-row: 2;
-}
-
-/* Responsive adjustments */
-@media (max-width: 992px) {
-  .gallery-masonry {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 280px);
-  }
-  
-  .gallery-item-large {
-    grid-column: 1 / 3;
-    grid-row: 1 / 3;
-  }
-  
-  .gallery-item-top-left {
-    grid-column: 1;
-    grid-row: 3;
-  }
-  
-  .gallery-item-bottom-left {
-    grid-column: 2;
-    grid-row: 3;
-  }
-  
-  .gallery-item-top-right {
-    grid-column: 1;
-    grid-row: 4;
-  }
-  
-  .gallery-item-bottom-right {
-    grid-column: 2;
-    grid-row: 4;
-  }
-}
-
-@media (max-width: 576px) {
-  .gallery-masonry {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    gap: 15px;
-  }
-  
-  .gallery-item-large,
-  .gallery-item-top-left,
-  .gallery-item-bottom-left,
-  .gallery-item-top-right,
-  .gallery-item-bottom-right {
-    grid-column: 1;
-    grid-row: auto;
-  }
+.gallery .row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
 }
 
 .gallery .gallery-item {
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+  display: block;
+  width: 100%;
+  height: 350px;
 }
 
 .gallery .gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: 0.3s;
+}
+
+@media (max-width: 992px) {
+  .gallery .gallery-item {
+    height: 280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery .gallery-item {
+    height: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery .gallery-item {
+    height: 300px;
+  }
 }
 
 .gallery .gallery-links {
@@ -1466,11 +1410,4 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background-color: color-mix(in srgb, var(--accent-color) 90%, white 10%);
-}
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
 }

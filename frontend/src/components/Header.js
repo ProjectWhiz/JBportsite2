@@ -55,7 +55,7 @@ const Header = () => {
                 <li><Link to="/gallery" onClick={closeMobileNav}>Travel</Link></li>
               </ul>
             </li>
-            <li><Link to="/services" className={isActive('/services')} onClick={closeMobileNav}>Services</Link></li>
+            {/*<li><Link to="/services" className={isActive('/services')} onClick={closeMobileNav}>Services</Link></li>*/}
             <li><Link to="/contact" className={isActive('/contact')} onClick={closeMobileNav}>Contact</Link></li>
           </ul>
           <i 

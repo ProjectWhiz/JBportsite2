@@ -133,4 +133,36 @@
 
   window.addEventListener("load", initSwiper);
 
+  /**
+   * Cursor trail effect
+   */
+  let lastTrailTime = 0;
+  const trailDelay = 30; // milliseconds between trail elements
+  
+  function createTrail(x, y) {
+    const currentTime = Date.now();
+    if (currentTime - lastTrailTime < trailDelay) return;
+    lastTrailTime = currentTime;
+
+    const trail = document.createElement('div');
+    trail.className = 'cursor-trail';
+    trail.style.left = x + 'px';
+    trail.style.top = y + 'px';
+    document.body.appendChild(trail);
+
+    // Trigger animation
+    requestAnimationFrame(() => {
+      trail.classList.add('active');
+    });
+
+    // Remove element after animation completes
+    setTimeout(() => {
+      trail.remove();
+    }, 800);
+  }
+
+  document.addEventListener('mousemove', (e) => {
+    createTrail(e.clientX, e.clientY);
+  });
+
 })();
