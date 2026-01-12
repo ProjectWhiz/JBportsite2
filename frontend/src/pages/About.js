@@ -39,8 +39,7 @@ const About = () => {
             <div className="col-lg-5 content">
               <h2>Professional Photographer from New York</h2>
               <p className="fst-italic py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua.
+    
               </p>
               <div className="row">
                 <div className="col-lg-6">
