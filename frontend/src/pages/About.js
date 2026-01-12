@@ -38,9 +38,6 @@ const About = () => {
             </div>
             <div className="col-lg-5 content">
               <h2>Professional Photographer from New York</h2>
-              <p className="fst-italic py-3">
-    
-              </p>
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
