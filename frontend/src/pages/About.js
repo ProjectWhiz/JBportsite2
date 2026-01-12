@@ -49,7 +49,7 @@ const About = () => {
                 </div>
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
+                    <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Experience:</strong> <span>10yrs</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
                     <li><i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
